@@ -31,16 +31,13 @@ This is an application representing the Item Catalog project that provides a lis
 * Adding some data to the initaialized database is a healthy process.
   * $ python items.py
   
-Run your application within the VM which is resided in your vagrant directory.
+* Run your application within the VM which is resided in your vagrant directory.
+  * $ python ./project.py
 
-            $   python ./application.py
-To Use Google Authentication Services you need a .json file. You can create a project to avail Google's OAuth service by taking a Client Id at:
+* To Use Google Authentication Services you need a .json file. You can create a project to avail Google's OAuth service by taking a    Client Id at:
+   https://console.developers.google.com
 
-https://console.developers.google.com
+* After creating and downloading .json file, place it in the directory in which it is accessible to the main project file. Adding, editing, and deleting menu items requires the user to log in to the application. Users can only see all other items but can edit and delete their own items.
 
-After creating and downloading .json file, place it in the directory in which it is accessible to the main project file. Adding, editing, and deleting menu items requires the user to log in to the application. Users can only see all other items but can edit and delete their own items.
-
-Access and test your application by visiting the below URL in your browser:
-
+* Access and test your application by visiting the below URL in your browser:
                       http://localhost:8000
-
