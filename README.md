@@ -35,9 +35,11 @@ This is an application representing the Item Catalog project that provides a lis
   * $ python ./project.py
 
 * To Use Google Authentication Services you need a .json file. You can create a project to avail Google's OAuth service by taking a    Client Id at:
+   
    https://console.developers.google.com
 
 * After creating and downloading .json file, place it in the directory in which it is accessible to the main project file. Adding, editing, and deleting menu items requires the user to log in to the application. Users can only see all other items but can edit and delete their own items.
 
 * Access and test your application by visiting the below URL in your browser:
-                      http://localhost:8000
+                     
+                     http://localhost:8000
